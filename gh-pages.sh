@@ -10,7 +10,7 @@ org=`echo ${TRAVIS_REPO_SLUG} | cut -f 1 -d /`
 repo=`echo ${TRAVIS_REPO_SLUG} | cut -f 2 -d /`
 
 name="Travis CI"
-email="Juchar@Github.com"
+email="voodoohoo@Github.com"
 branch=${3:-"master"} # default to master when branch isn't specified
 
 mkdir temp && cd temp
